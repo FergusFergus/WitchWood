@@ -67,4 +67,6 @@ p {
     font-size: 20px;
     display: block;
     color: #ffffff;
+    width: 90%;
+    margin-left: 20px
 }
