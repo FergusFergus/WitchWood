@@ -1,0 +1,101 @@
+/* Idunn chapter specific style */
+
+/* Page Content ***************************************************************/
+.pageBody {
+    float:left;
+    margin-left: 100px;
+    width: 60%;
+}
+
+body {
+	background-color: #000000;
+}
+
+h2 {
+    color: #ff8dba;
+    font-family: KaushanScript;
+    font-size: 50px;
+    width: 700px;
+    margin-right: auto;
+    margin-top: 80px;
+    text-align: left
+}
+
+.line2 {
+    border-top: 1px solid #ff8dba;
+    background-color: transparent;
+}
+
+p {
+    font-family: CrimsonPro;
+    font-size: 18px;
+    display: block;
+    color: #ffffff;
+}
+
+.page {
+    width: 90%
+}
+
+pre {
+    font-family: Quicksand;
+    font-size: 19px;
+    color: #ff8dba;
+    display: block;
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+/* Notes **********************************************************************/
+.notes {
+    float: right;
+    width: 25%;
+    margin-top: 190px;
+    margin-right: 5%;
+    border-left-color: #ff8dba;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+.notesText {
+    margin-left: 10px
+}
+
+
+/* Next ***********************************************************************/
+.next {
+    margin-bottom: 100px;
+    text-align: right
+}
+
+.next li a {
+	color: #ff8dba;
+    font-family: Quicksand;
+	text-decoration: none;
+    font-size: 25px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+.next li a:hover {
+	color: #b3b3b3
+}
+
+/* Prev ***********************************************************************/
+.prev {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left
+}
+
+.prev li a {
+	color: #ff8dba;
+    font-family: Quicksand;
+	text-decoration: none;
+    font-size: 25px;
+}
+
+.prev li a:hover {
+	color: #b3b3b3
+}

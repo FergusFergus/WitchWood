@@ -1,0 +1,71 @@
+/* Idunn chapter specific style */
+
+/* Page Content ***************************************************************/
+.pageBody {
+    float:left;
+    margin-left: 100px;
+    width: 60%;
+}
+
+body {
+	background-color: #000000;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: IMFellEnglish;
+    font-size: 50px;
+    width: 700px;
+    margin-right: auto;
+    margin-top: 80px;
+    text-align: left
+}
+
+.line2 {
+    border-top: 1px solid white;
+    background-color: transparent;
+}
+
+p {
+    font-family: LibreBaskerville;
+    font-size: 16px;
+    display: block;
+    color: #ffffff;
+}
+
+.page {
+    width: 90%
+}
+
+/* Notes **********************************************************************/
+.notes {
+    float: right;
+    width: 25%;
+    margin-top: 190px;
+    margin-right: 5%;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+.notesText {
+    margin-left: 10px
+}
+
+
+/* Next ***********************************************************************/
+.next {
+    margin-bottom: 100px;
+    text-align: right
+}
+
+.next li a {
+	color: #ffffff;
+    font-family: LibreBaskerville;
+	text-decoration: none;
+    font-size: 20px;
+}
+
+.next li a:hover {
+	color: #b3b3b3
+}

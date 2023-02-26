@@ -1,0 +1,108 @@
+/* Global style stuff */
+
+@font-face {
+  font-family: Vollkorn;
+  src: url('Fonts/VollkornSC-Regular.tff') format('truetype'),
+       url('Fonts/VollkornSC-Regular.woff') format('woff')
+}
+
+@font-face {
+  font-family: CrimsonPro;
+  src: url('Fonts/CrimsonPro.tff') format('truetype'),
+       url('Fonts/CrimsonPro.woff') format('woff')
+}
+
+@font-face {
+  font-family: IMFellEnglish;
+  src: url('Fonts/IMFellEnglishSC-Regular.tff') format('truetype'),
+       url('Fonts/IMFellEnglishSC-Regular.woff') format('woff')
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url('Fonts/Quicksand-VariableFont_wght.tff') format('truetype'),
+       url('Fonts/Quicksand-VariableFont_wght.woff') format('woff')
+}
+
+@font-face {
+  font-family: KaushanScript;
+  src: url('Fonts/KaushanScript-Regular.tff') format('truetype'),
+       url('Fonts/KaushanScript-Regular.woff') format('woff')
+}
+
+@font-face {
+  font-family: LibreBaskerville;
+  src: url('Fonts/LibreBaskerville-Regular.tff') format('truetype'),
+       url('Fonts/LibreBaskerville-Regular.woff') format('woff')
+}
+
+/* Title/Header **************************************************************/
+
+h1 {
+    font-family: Vollkorn;
+    font-size: 100px;
+    color: #ffffff;
+	background-color: #000000;
+    width: 700px;
+    height: 115px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Top Navigation Menu ********************************************************/
+
+.topnav nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.topnav nav ul li {
+	display: inline-block;
+	padding: 10px 20px 0px 0px;
+}
+
+.topnav nav ul li a {
+	color: #ffffff;
+    font-family: CrimsonPro;
+	text-decoration: none;
+    font-size: 20px
+}
+
+.topnav nav ul li a:hover {
+	color: #b3b3b3
+}
+
+/* Logo bar *******************************************************************/
+
+.line {
+    position: relative;
+    overflow: visible;
+    border-color: white;
+    color: white;
+    margin-top: 60px;
+}
+
+/* Add a pseudo element that contains our image. */
+.line:after {
+  content: " ";
+  position: absolute;
+  display: block;
+  top: -35px;
+  width: 70px;
+  height: 70px;
+  left: 50%;
+  margin-left: -35px;
+
+  background: url("logo.png");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: contain;
+  outline: 10px solid black;
+}
