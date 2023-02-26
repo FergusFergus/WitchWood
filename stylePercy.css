@@ -44,6 +44,8 @@ pre {
     display: block;
     white-space: pre-wrap;
     line-height: 1.5;
+    width: 86%;
+    margin-left: 20px
 }
 
 /* Notes **********************************************************************/
