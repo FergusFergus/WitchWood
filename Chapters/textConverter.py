@@ -4,9 +4,9 @@ def main():
 
     filename2 = input("Enter target file name: ")
     writeFile = open(filename2,"w")
-    
+
     for line in readFile:
-        newline = "<p>" + line + "</p>"
+        newline = "<p>&emsp;&emsp;" + line + "</p>"
         #print(newline)
         writeFile.write(newline)
 

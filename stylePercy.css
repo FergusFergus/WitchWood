@@ -26,11 +26,19 @@ h2 {
     background-color: transparent;
 }
 
+.text {
+    margin-top: 40px
+}
+
 p {
-    font-family: CrimsonPro;
-    font-size: 18px;
+    font-family: Quicksand;
+    font-size: 19px;
     display: block;
-    color: #ffffff;
+    color: #ff8dba;
+    margin: 0;
+    margin-left: 20px;
+    width: 86%;
+    line-height: 1.25;
 }
 
 .page {
@@ -88,6 +96,7 @@ pre {
 
 /* Next ***********************************************************************/
 .next {
+    margin-right: 12%;
     float: right;
     display: inline-block;
 }

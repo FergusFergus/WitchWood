@@ -5,13 +5,13 @@ $(footnote).hide();
 footnoteVisible = false; // used like a lock
 fading = false; // used like a lock
 
-//var footnoteText = JSON.parse(footnotes);
-
 function generateFootnote(num, id) {
     text = footnotes[id]
 
+    num = id.slice(8)
+
     var footnote = "<div class = \"noteText\">";
-    footnote += "<p> <sup>" + num + "</sup> " + text + "</p>";
+    footnote += "<footnoteText> <sup>" + num + "</sup> " + text + "</footnoteText>";
     footnote += "</div>"
 
     return footnote;
@@ -43,6 +43,7 @@ $( ".hover" ).hover(
 
             if (!fading) {
                 fading = true;
+
                 $( footnote ).fadeOut( 300, function() {
                     footnoteVisible = false;
                     $(footnote).empty();
@@ -54,7 +55,5 @@ $( ".hover" ).hover(
                 });
             }
         }
-
-        //id = $(this).attr('id');
     }
 );
