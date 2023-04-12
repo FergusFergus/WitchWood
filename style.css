@@ -86,7 +86,6 @@ h1 {
 }
 
 /* Logo bar *******************************************************************/
-
 .line {
     position: relative;
     overflow: visible;
@@ -95,22 +94,15 @@ h1 {
     margin-top: 60px;
 }
 
-/* Add a pseudo element that contains our image. */
-.line:after {
-  content: " ";
-  position: absolute;
-  display: block;
-  top: -35px;
-  width: 70px;
-  height: 70px;
-  left: 50%;
-  margin-left: -35px;
-
-  background: url("logo.png");
-  background-repeat: no-repeat;
-  background-color: black;
-  background-size: contain;
-  outline: 10px solid black;
+.logo {
+    position: absolute;
+    background-color: black;
+    outline: 10px solid black;
+    width: 70px;
+    height: 60px;
+    left: 50%;
+    margin-left: -35px;
+    margin-top: -30px
 }
 
 /* Side Navigation Menu *******************************************************/

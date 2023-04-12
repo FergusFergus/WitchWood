@@ -27,7 +27,7 @@ h2 {
 }
 
 .chapterText {
-    margin-top: 40px
+    margin-top: 40px;
 }
 
 p {
@@ -39,6 +39,10 @@ p {
     margin-left: 20px;
     width: 86%;
     line-height: 1.3;
+}
+
+.dream {
+    text-align: center
 }
 
 footnoteText {
@@ -78,7 +82,6 @@ pre {
 .AuthorNotes {
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-left: 10px;
     border-left-color: white;
     border-left-style: solid;
     border-left-width: 2px;
