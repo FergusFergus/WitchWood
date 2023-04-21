@@ -143,3 +143,44 @@ h1 {
 .sideNav nav ul li a:hover {
 	color: #b3b3b3
 }
+
+/* Arrows *********************************************************************/
+.arrows {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Prev ***********************************************************************/
+.prev {
+    text-align: left;
+    display: inline-block;
+}
+
+.prev li a {
+	color: #ffffff;
+    font-family: CrimsonPro;
+	text-decoration: none;
+    font-size: 25px;
+}
+
+.prev li a:hover {
+	color: #b3b3b3
+}
+
+/* Next ***********************************************************************/
+.next {
+    margin-right: 12%;
+    float: right;
+    display: inline-block;
+}
+
+.next li a {
+	color: #ffffff;
+    font-family: CrimsonPro;
+	text-decoration: none;
+    font-size: 25px;
+}
+
+.next li a:hover {
+	color: #b3b3b3
+}

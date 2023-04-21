@@ -1,4 +1,4 @@
-/* Idunn chapter specific style */
+/* Percy chapter specific style */
 
 /* Page Content ***************************************************************/
 .pageBody {
@@ -69,45 +69,4 @@ pre {
 
 .notesText {
     margin-left: 10px
-}
-
-/* Arrows *********************************************************************/
-.arrows {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-/* Prev ***********************************************************************/
-.prev {
-    text-align: left;
-    display: inline-block;
-}
-
-.prev li a {
-	color: #ff8dba;
-    font-family: Quicksand;
-	text-decoration: none;
-    font-size: 25px;
-}
-
-.prev li a:hover {
-	color: #b3b3b3
-}
-
-/* Next ***********************************************************************/
-.next {
-    margin-right: 12%;
-    float: right;
-    display: inline-block;
-}
-
-.next li a {
-	color: #ff8dba;
-    font-family: Quicksand;
-	text-decoration: none;
-    font-size: 25px;
-}
-
-.next li a:hover {
-	color: #b3b3b3
 }
