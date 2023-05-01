@@ -3,41 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>WitchWood: Chapter 2</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="styleJonah.css">
-    <script src="jquery.js"></script>
-    <script src="Chapters/Chapter2/footnotes2.js"></script>
-    <script src="footnoteHandler.js"></script>
+    <link rel="stylesheet" type="text/css" href="../StyleSheets/style.css">
+    <link rel="stylesheet" type="text/css" href="../StyleSheets/styleJonah.css">
+    <script src="../Scripts/jquery.js"></script>
+    <script src="ChapterFiles/Chapter2/footnotes2.js"></script>
+    <link rel="stylesheet" type="text/css" href="../StyleSheets/styleChapters.css">
+    <script src="../Scripts/hamMenu.js"></script>
 </head>
 
 <!-- Everything at the top of the page -------------------------------------->
 <header>
     <h1>WitchWood</h1>
 
-    <div class="topnav">
-        <nav>
+    <div class="hamContainer">
+        <div class="hamburgerMenu" onclick="changeMenuIcon(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="header1Narrow">WitchWood</h1>
+        <hr class="lineNarrowScreen">
+            <img class="logoNarrowScreen" src="../Images/logo.png" />
+        </hr>
+    </div>
+
+    <div class="topnav" id="topnav">
+        <nav id="links">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tableOfContents.html">Table of Contents</a></li>
-                <li><a href="extras.html">Art and Extras</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../tableOfContents.html">Table of Contents</a></li>
+                <li><a href="../extras.html">Art and Extras</a></li>
             </ul>
         </nav>
     </div>
 
     <div>
-        <hr class="line">
-            <img class="logo" src="logo.png" />
+        <hr class="lineWideScreen">
+            <img class="logoWideScreen" src="../Images/logo.png" />
         </hr>
     </div>
 </header>
 
 <!-- Body of the page, including chapter text -------------------------------->
 <body>
-        <div class="pageBody">
-            <h2>Chapter 2 - Jonah</h2>
-            <hr class="line2" />
+    <div class="pageBody" id="pageBody">
+        <h2>Chapter 2 - Jonah</h2>
+        <hr class="line2" />
 
-            <div class="chapterText">
+        <div class="chapterText">
 
 <p>&emsp;&emsp;It’s one AM by the time we reach Norton.
 </p><p>&emsp;&emsp;If I was exhausted at the start of the trip, five hours of driving has certainly not helped. The forested hills along I-81 were pretty enough in daylight, but nightfall and a lack of electric lighting quickly swallowed up the distraction of scenery. I suspect I have a higher tolerance than most for long periods spent staring at moving tarmac and little else. Still, staying awake at the wheel took more effort than I care to admit.
@@ -163,44 +179,44 @@
 </p><p>&emsp;&emsp;Your jaw works. You continue staring at whatever has you so engrossed in the distance. Then you stand. “Forget it. I’m going to sleep. See you in the morning.”
 </p><p>&emsp;&emsp;And with that you walk off, leaving me with your fading footsteps and the rustling of leaves.
 </p>
-            </div>
+        </div>
 
-            <div class="arrows">
-                <div class="prev">
-                    <li><a href="chapter1.html"> &lt- Previous Chapter |</a></li>
-                </div>
+        <div class="arrows">
+            <div class="prev">
+                <li><a href="chapter1.html"> &lt- Previous Chapter |</a></li>
+            </div>
+        </div>
+    </div>
+
+    <!--> Side navigation menu <-->
+    <div class="sideNav">
+        <nav>
+            <ul>
+                <li><a href="prologue.html">-> Begin</a></li>
+                <li><a href="latest.html">-> Latest Chapter</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="notes">
+        <!--> Author's notes, goes above footnotes. Always there <-->
+        <div class="AuthorNotes">
+            <div class = "noteText">
+                <p>Author's Note:</p>
+                <p>
+                    Jonah's chapters feature footnotes. To read them, use the mouse hover.
+                </p>
             </div>
         </div>
 
-        <!--> Side navigation menu <-->
-        <div class="sideNav">
-            <nav>
-                <ul>
-                    <li><a href="prologue.html">-> Begin</a></li>
-                    <li><a href="latest.html">-> Latest Chapter</a></li>
-                </ul>
-            </nav>
+        <!--> This is were Jonah's footnotes are filled in <-->
+        <div id="footnotes" class="footnotes">
         </div>
-
-
-        <div class="notes">
-            <!--> Author's notes, goes above footnotes. Always there <-->
-            <div class="AuthorNotes">
-                <div class = "noteText">
-                    <p>Author's Note:</p>
-                    <p>
-                        Jonah's chapters feature footnotes. To read them, use the mouse hover.
-                    </p>
-                </div>
-            </div>
-
-            <!--> This is were Jonah's footnotes are filled in <-->
-            <div id="footnotes" class="footnotes">
-            </div>
-        </div>
+    </div>
 </body>
 
-<script src="footnoteHandler.js"></script>
+<script src="../Scripts/footnoteHandler.js"></script>
 
 </html>
 

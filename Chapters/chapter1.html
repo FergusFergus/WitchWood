@@ -3,27 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>WitchWood: Chapter 1</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="stylePercy.css">
+    <link rel="stylesheet" type="text/css" href="../StyleSheets/style.css">
+    <link rel="stylesheet" type="text/css" href="../StyleSheets/stylePercy.css">
+    <link rel="stylesheet" type="text/css" href="../StyleSheets/styleChapters.css">
+    <script src="../Scripts/hamMenu.js"></script>
 </head>
 
 <!-- Everything at the top of the page -------------------------------------->
 <header>
     <h1>WitchWood</h1>
 
-    <div class="topnav">
-        <nav>
+    <div class="hamContainer">
+        <div class="hamburgerMenu" onclick="changeMenuIcon(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="header1Narrow">WitchWood</h1>
+        <hr class="lineNarrowScreen">
+            <img class="logoNarrowScreen" src="../Images/logo.png" />
+        </hr>
+    </div>
+
+    <div class="topnav" id="topnav">
+        <nav id="links">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tableOfContents.html">Table of Contents</a></li>
-                <li><a href="extras.html">Art and Extras</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../tableOfContents.html">Table of Contents</a></li>
+                <li><a href="../extras.html">Art and Extras</a></li>
             </ul>
         </nav>
     </div>
 
     <div>
-        <hr class="line">
-            <img class="logo" src="logo.png" />
+        <hr class="lineWideScreen">
+            <img class="logoWideScreen" src="../Images/logo.png" />
         </hr>
     </div>
 </header>
@@ -31,11 +48,11 @@
 
 <!-- Body of the page, including chapter text -------------------------------->
 <body>
-        <div class="pageBody">
-            <h2>Chapter 1 - Persephone</h2>
-            <hr class="line2" />
+    <div class="pageBody" id="pageBody">
+        <h2>Chapter 1 - Persephone</h2>
+        <hr class="line2" />
 
-            <div class=text>
+        <div class=text>
 
             <p>&emsp;&emsp;	I’m starting to lose my patience, by the time you finally arrive.
             </p><p>&emsp;&emsp;	It’s August, in Virginia, so the interior of your car is just a few degrees shy of what might be considered balmy in Hell. I’ve opened all the windows I could, but what passes for wind today feels like Virginia has decided to stand slack jawed outside the passenger door, mouth breathing on my face. While I’m grateful you at least had the decency to park in the shade, my only remaining recourse for coping with the heat is dozing until your return. So I wait for an hour, feet kicked up on the dashboard, the book who’s seat I’ve stolen resting open over my eyes, Virginia exhaling hot and heavy down my neck.
@@ -79,26 +96,26 @@
             </p><p>&emsp;&emsp;	I give you my brightest smile. “I wouldn’t.”
             </p>
 
-            </div>
-
-            <div class="arrows">
-                <div class="prev">
-                    <li><a href="prologue.html"> &lt- Previous Chapter |</a></li>
-                </div>
-                <div class="next">
-                    <li><a href="latest.html"> | Next Chapter -></a></li>
-                </div>
-            </div>
         </div>
 
-        <div class="sideNav">
-            <nav>
-                <ul>
-                    <li><a href="prologue.html">-> Begin</a></li>
-                    <li><a href="latest.html">-> Latest Chapter</a></li>
-                </ul>
-            </nav>
+        <div class="arrows">
+            <div class="prev">
+                <li><a href="prologue.html"> &lt- Previous Chapter |</a></li>
+            </div>
+            <div class="next">
+                <li><a href="latest.html"> | Next Chapter -></a></li>
+            </div>
         </div>
+    </div>
+
+    <div class="sideNav">
+        <nav>
+            <ul>
+                <li><a href="prologue.html">-> Begin</a></li>
+                <li><a href="latest.html">-> Latest Chapter</a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 
 </html>

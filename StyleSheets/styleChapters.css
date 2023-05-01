@@ -1,0 +1,21 @@
+/*****************************************************************************/
+/*************************** for mobile screens ******************************/
+/*****************************************************************************/
+@media only screen and (max-width: 1000px) {
+    h2 {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+    }
+
+    .pageBody {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .line2 {
+        display: none
+    }
+}

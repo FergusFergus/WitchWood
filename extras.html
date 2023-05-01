@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>WitchWood Homepage</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="styleExtras.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheets/style.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheets/styleExtras.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheets/styleChapters.css">
+    <script src="Scripts/hamMenu.js"></script>
 </head>
 
 <header>
     <h1>WitchWood</h1>
 
-    <div class="topnav">
-        <nav>
+    <div class="hamContainer">
+        <div class="hamburgerMenu" onclick="changeMenuIcon(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="header1Narrow">WitchWood</h1>
+        <hr class="lineNarrowScreen">
+            <img class="logoNarrowScreen" src="Images/logo.png" />
+        </hr>
+    </div>
+
+    <div class="topnav" id="topnav">
+        <nav id="links">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="tableOfContents.html">Table of Contents</a></li>
@@ -21,37 +38,35 @@
     </div>
 
     <div>
-        <hr class="line">
-            <img class="logo" src="logo.png" />
+        <hr class="lineWideScreen">
+            <img class="logoWideScreen" src="Images/logo.png" />
         </hr>
     </div>
 </header>
 
 <body>
-    <div class="wrapper">
-        <div class="pageBody">
-            <h2>Links</h2>
-            <hr class="line2" />
+    <div class="pageBody" id="pageBody">
+        <h2>Links</h2>
+        <hr class="line2" />
 
-            <div class="links">
-                <nav>
-                    <ul>
-                        <li><a href="https://open.spotify.com/playlist/7y3LFRaszxJgVUPMQ744la?si=06b60864788642da" target="_blank">Spotify</a></li>
-                        <li><a href="https://www.tumblr.com/blog/witchwood-yeehaw" target="_blank">Tumblr</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="links">
+            <nav>
+                <ul>
+                    <li><a href="https://open.spotify.com/playlist/7y3LFRaszxJgVUPMQ744la?si=06b60864788642da" target="_blank">Spotify</a></li>
+                    <li><a href="https://www.tumblr.com/blog/witchwood-yeehaw" target="_blank">Tumblr</a></li>
+                </ul>
+            </nav>
+        </div>
 
-            <h2>Lore</h2>
-            <hr class="line2" />
+        <h2>Lore</h2>
+        <hr class="line2" />
 
-            <div class="extras">
-                <nav>
-                    <ul>
-                        <li><a href="loreMana.html">Mana</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="extras">
+            <nav>
+                <ul>
+                    <li><a href="Extras/loreMana.html">Mana</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </body>

@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>WitchWood Table of Contents</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="styleTable.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheets/style.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheets/styleTable.css">
+    <script src="Scripts/hamMenu.js"></script>
 </head>
 
 <header>
     <h1>WitchWood</h1>
 
-    <div class="topnav">
-        <nav>
+    <div class="hamContainer">
+        <div class="hamburgerMenu" onclick="changeMenuIcon(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="header1Narrow">WitchWood</h1>
+        <hr class="lineNarrowScreen">
+            <img class="logoNarrowScreen" src="Images/logo.png" />
+        </hr>
+    </div>
+
+    <div class="topnav" id="topnav">
+        <nav id="links">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="tableOfContents.html">Table of Contents</a></li>
@@ -21,27 +37,27 @@
     </div>
 
     <div>
-        <hr class="line">
-            <a href="secretTableOfContents.html"><img class="logo" src="logo.png" /></a>
+        <hr class="lineWideScreen">
+             <a href="secretTableOfContents.html">
+                 <img class="logoWideScreen" src="Images/logo.png" />
+             </a>
         </hr>
     </div>
 </header>
 
 <body>
-    <div class="wrapper">
-        <div class="pageBody">
-            <h2>Table of Contents</h2>
-            <hr class="line2" />
+    <div class="pageBody" id="pageBody">
+        <h2>Table of Contents</h2>
+        <hr class="line2" />
 
-            <div class="contents">
-                <nav>
-                    <ul>
-                        <li><a href="prologue.html">Prologue</a></li>
-                        <li><a href="chapter1.html">Chapter 1</a></li>
-                        <li><a href="latest.html">Chapter 2</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="contents">
+            <nav>
+                <ul>
+                    <li><a href="Chapters/prologue.html">Prologue</a></li>
+                    <li><a href="Chapters/chapter1.html">Chapter 1</a></li>
+                    <li><a href="Chapters/latest.html">Chapter 2</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </body>
