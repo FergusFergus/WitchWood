@@ -1,0 +1,127 @@
+/* General Page Style ********************************************************/
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #666666;
+    text-align: center;
+    color: white
+}
+
+h2 {
+    font-size: 23px;
+    color: white
+}
+
+p {
+    color: white
+}
+
+fakelink:hover {
+    color: #999999;
+}
+
+/* Header stuff ***************************************************************/
+.Header .logo {
+    margin-left: 20px;
+    width: 250px;
+}
+
+.HeaderText {
+    text-align: center
+}
+
+/* Navigation bar *************************************************************/
+.topnav {
+    background-color: #444444;
+}
+
+.topnav nav ul li {
+	display: inline-block;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #111111;
+}
+
+.topnav nav ul li a {
+	text-decoration: none;
+    font-size: 17px;
+    padding-right: 10px;
+    color: white;
+}
+
+.topnav nav ul li:hover {
+	background-color: #222222;
+}
+
+/* Page organization **********************************************************/
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 0.5fr 1.9fr;
+  grid-template-rows: 0.9fr auto;
+  gap: 20px 20px;
+  grid-template-areas:
+    "SideNav MainContent"
+    ". CommentSection";
+}
+.MainContent { grid-area: MainContent; }
+.CommentSection { grid-area: CommentSection; }
+.SideNav { grid-area: SideNav; }
+
+/* Main Content style *********************************************************/
+.MainContent {
+    margin: 10px;
+}
+
+.MainContent .ContentBox {
+    background-color: #222222;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.MainContent h1 {
+    margin-top: 10px;
+}
+
+
+/* Side navigation style ******************************************************/
+.SideNav .ContentBox {
+    margin: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #222222;
+}
+
+.SideNav h1 {
+    margin-top: 10px;
+}
+
+.SideNav ul li {
+    color: white;
+    font-size: 17px;
+}
+
+.SideNav threadInfo {
+    font-size: 11px;
+}
+
+/* Footer style ***************************************************************/
+.Footer {
+    margin: 10px;
+}
+
+.Footer .logo {
+    padding-left: 10px;
+    width: 100px
+}
+
+.havenIcon {
+    width: 15px;
+    padding: 0px 0px 0px 5px;
+}

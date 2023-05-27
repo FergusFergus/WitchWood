@@ -1,0 +1,91 @@
+/* User tablehead display *****************************************************/
+.MainContent .tableHead {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 0.6fr 0.4fr 1fr 1fr;
+    background-color: #666666;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    list-style-type: none
+}
+
+.MainContent .tableHead h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    font-size: 25px
+}
+
+.MainContent .tableHead p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 7px 0px 5px 10px;
+    font-size: 20px
+}
+
+/* User table display *********************************************************/
+.MainContent .user1 ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 0.6fr 0.4fr 1fr 1fr;
+    background-color: #282828;
+    list-style-type: none
+}
+
+.MainContent .userList h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px 0px 5px 0px;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.MainContent .userList p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px 0px 5px 10px;
+    font-size: 17px;
+}
+
+.MainContent .user1 ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 0.6fr 0.4fr 1fr 1fr;
+    background-color: #282828;
+    list-style-type: none
+}
+.MainContent .user2 ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 0.6fr 0.4fr 1fr 1fr;
+    background-color: #383838;
+    list-style-type: none
+}
+
+.MainContent .userList ul {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.MainContent .userList h2 {
+    border-right-style: solid;
+    border-right-color: black;
+}
+
+.dTags {
+    border-right-style: solid;
+    border-right-color: black;
+}
+
+.role {
+    border-right-style: solid;
+    border-right-color: black;
+}

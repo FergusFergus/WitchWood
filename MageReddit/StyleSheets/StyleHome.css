@@ -1,0 +1,21 @@
+/* Main Content style *********************************************************/
+.MainContent h2 {
+    margin-left: 10px;
+}
+
+.MainContent h3 {
+    font-size: 17px;
+    margin-left: 10px;
+    color: white;
+}
+
+.MainContent p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.MainContent ul li {
+    font-size: 16px;
+    color: white;
+    margin-right: 10px
+}

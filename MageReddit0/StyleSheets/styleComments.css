@@ -1,0 +1,36 @@
+/* Comments style *************************************************************/
+.CommentSection {
+    margin-top: 25px;
+}
+
+.CommentSection .comment h2 {
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: #202020;
+}
+
+.CommentSection .comment p {
+    margin-left: 70px;
+}
+
+.CommentSection .reply0 h2 {
+    margin-left: 50px;
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: #202020;
+}
+
+.CommentSection .reply0 p {
+    margin-left: 120px;
+}
+
+.CommentSection .reply1 h2 {
+    margin-left: 100px;
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: #202020;
+}
+
+.CommentSection .reply1 p {
+    margin-left: 170px;
+}

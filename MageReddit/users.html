@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MageReddit Home</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheets/style.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheets/styleUsers.css">
+    <script src="Jsons/users.js"></script>
+    <script src="Scripts/userFill.js" defer></script>
+</head>
+
+<body>
+
+    <div class="Header">
+        <img class="logo" src="Images/MRLogo.png" />
+
+        <p class="HeaderText"></p>
+
+        <div class="topnav" id="topnav">
+            <nav id="links">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a>Forums</a></li>
+                    <li><a href="users.html">Users</a></li>
+                    <li><a>FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="MainContent">
+            <div class="ContentBox">
+                <ul class="tableHead">
+                    <li><h2>Username</h2></li>
+                    <li><p>Role</p></li>
+                    <li><p>Self Declared Tags</p></li>
+                    <li><p>Popular Tags</p></li>
+                </ul>
+
+                <userList class="userList" id="userList">
+                </userList>
+            </div>
+        </div>
+
+        <div class="CommentSection">
+        </div>
+
+        <div class="SideNav">
+            <div class="ContentBox">
+                <h1>Popular Forums</h1>
+                <ul>
+                    <li>sr/almostDiedToday</li>
+                    <li>sr/amITheAsshole</li>
+                    <li>sr/canIPetThat</li>
+                    <li>sr/carTrouble</li>
+                    <li>sr/familiars</li>
+                    <li>sr/ghostOrSleepDeprivation</li>
+                    <li>sr/knightsTemplarCringe</li>
+                    <li>sr/medicalAdvisement</li>
+                    <li>sr/noobs</li>
+                    <li>sr/taxonomyProposals</li>
+                    <li>sr/wards</li>
+                </ul>
+
+                <h1>Recent Threads</h1>
+                <ul>
+                    <li><threadTitle>Muck angler bite, 4 years old</threadTitle>
+                        <br><threadInfo>&emsp;> submitted 2 hours ago to mr/coolScars</threadInfo></li>
+                    <li><threadTitle>Are Thaysian sigils effective against hellhounds?</threadTitle>
+                        <br><threadInfo>&emsp;> submitted 3 hours ago to mr/fuckDemons</threadInfo></li>
+                    <li><threadTitle>Augustine vs iPad who wins (the outcome will not surprise you)</threadTitle>
+                        <br><threadInfo>&emsp;> submitted 3 hours ago to mr/knightsTemplarCringe</threadInfo></li>
+                    <li><threadTitle>Best tools for stamping bullets?</threadTitle>
+                        <br><threadInfo>&emsp;> submitted 7 hours ago to mr/gunMods</threadInfo></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="Footer">
+        <p>Contributors are solely responsible for contributed content.</p>
+        <p>MageReddit is hosted by:</p>
+        <img class="logo" src="Images/Haven.png" />
+    </div>
+
+</body>
+
+
+</html>
