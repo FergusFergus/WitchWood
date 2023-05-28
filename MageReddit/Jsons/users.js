@@ -1,9 +1,23 @@
 users = {
+    "Unknown1" : {
+        "userName" : "amPowell01<img class=\"havenIcon\" src=\"Images/HavenH.png\">",
+        "role" : "Moderator",
+        "dTags" : ["Wizard", " Illusionist"],
+        "pTags" : ["Informative", " Reliable"],
+        "hasPage" : false
+    },
     "Adriana" : {
         "userName" : "A's_Artifacts",
         "role" : "Contributor",
         "dTags" : ["Artifact Purveyor"],
         "pTags" : ["Fair Prices", " Reliable", " Quick Reply"],
+        "hasPage" : false
+    },
+    "Unknown2" : {
+        "userName" : "bluish",
+        "role" : "Contributor",
+        "dTags" : ["Mundane"],
+        "pTags" : ["Helpful", " Accurate", " Knowledgeable", " Great Resource"],
         "hasPage" : false
     },
     "Volker" : {
@@ -87,7 +101,7 @@ users = {
         "userName" : "St1ckyF1ngers",
         "role" : "Contributor",
         "dTags" : ["Mundane"],
-        "pTags" : ["Reliable"],
+        "pTags" : ["Reliable", " Funny"],
         "hasPage" : false
     },
     "Bane" : {

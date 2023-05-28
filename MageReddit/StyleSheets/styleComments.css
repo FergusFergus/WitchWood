@@ -3,6 +3,14 @@
     margin-top: 50px;
 }
 
+.CommentSection h1 {
+    font-size: 23px;
+}
+
+.CommentSection h2 {
+    font-size: 17px;
+}
+
 .CommentSection .comment h2 {
     padding-left: 10px;
     margin-right: 10px;
