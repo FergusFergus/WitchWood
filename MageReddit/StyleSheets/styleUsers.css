@@ -1,3 +1,11 @@
+.MainContent a {
+    color: white;
+}
+
+.MainContent a:hover {
+    color: #999999;
+}
+
 /* User tablehead display *****************************************************/
 .MainContent .tableHead {
     display: grid;

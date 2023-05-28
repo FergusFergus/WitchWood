@@ -63,15 +63,13 @@ fakelink:hover {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 0.5fr 1.9fr;
-  grid-template-rows: 0.9fr auto;
-  gap: 20px 20px;
+  grid-template-rows: auto;
+  gap: 10px 10px;
   grid-template-areas:
-    "SideNav MainContent"
-    ". CommentSection";
+    "SideNav MainContent";
 }
-.MainContent { grid-area: MainContent; }
-.CommentSection { grid-area: CommentSection; }
 .SideNav { grid-area: SideNav; }
+.MainContent { grid-area: MainContent; }
 
 /* Main Content style *********************************************************/
 .MainContent {
@@ -113,7 +111,7 @@ fakelink:hover {
 
 /* Footer style ***************************************************************/
 .Footer {
-    margin: 10px;
+    margin: 100px 10px 10px 10px;
 }
 
 .Footer .logo {

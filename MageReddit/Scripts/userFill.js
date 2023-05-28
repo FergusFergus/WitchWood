@@ -1,19 +1,27 @@
 function fillUser(index) {
     result = "<li><h2>";
-    result += users[index]["userName"];
-    result += "</li>"
+    if (users[index]["hasPage"]) {
+        result += "<a href=\"Users/";
+        result += users[index]["userName"];
+        result += ".html\">";
+        result += users[index]["userName"];
+        result += "</a>";
+    } else {
+        result += users[index]["userName"];
+    }
+    result += "</h2></li>";
 
     result += "<li><p class=\"role\">";
     result += users[index]["role"];
-    result += "</p></li>"
+    result += "</p></li>";
 
     result += "<li><p class=\"dTags\">";
     result += users[index]["dTags"];
-    result += "</p></li>"
+    result += "</p></li>";
 
     result += "<li><p class=\"pTags\">";
     result += users[index]["pTags"];
-    result += "</p></li>"
+    result += "</p></li>";
 
     return result;
 }
