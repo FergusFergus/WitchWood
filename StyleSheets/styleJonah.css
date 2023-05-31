@@ -51,10 +51,6 @@ footnoteText {
     color: #ffffff;
 }
 
-.page {
-    width: 90%
-}
-
 pre {
     font-family: TimesNewRoman;
     font-size: 19px;
@@ -71,7 +67,8 @@ pre {
     float: right;
     width: 25%;
     margin-top: 10px;
-    margin-right: 5%;
+    margin-right: 2%;
+    border-left-style: none;
 }
 
 .noteText {
