@@ -15,7 +15,6 @@ h2 {
     color: #ff8dba;
     font-family: KaushanScript;
     font-size: 50px;
-    width: 700px;
     margin-right: auto;
     margin-top: 80px;
     text-align: left
@@ -24,6 +23,11 @@ h2 {
 .line2 {
     border-top: 1px solid #ff8dba;
     background-color: transparent;
+}
+
+.line3 {
+    background-color: transparent;
+    color: #ff8dba
 }
 
 .text {
@@ -41,21 +45,6 @@ p {
     line-height: 1.25;
 }
 
-.page {
-    width: 90%
-}
-
-pre {
-    font-family: Quicksand;
-    font-size: 19px;
-    color: #ff8dba;
-    display: block;
-    white-space: pre-wrap;
-    line-height: 1.5;
-    width: 86%;
-    margin-left: 20px
-}
-
 /* Notes **********************************************************************/
 .notes {
     float: right;
@@ -69,4 +58,13 @@ pre {
 
 .notesText {
     margin-left: 10px
+}
+
+/*****************************************************************************/
+/*************************** for mobile screens ******************************/
+/*****************************************************************************/
+@media only screen and (max-width: 800px) {
+    h2 {
+        font-size: 40px
+    }
 }

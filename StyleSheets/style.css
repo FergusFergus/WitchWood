@@ -120,7 +120,7 @@ h1 {
     float: right;
     width: 25%;
     margin-top: 190px;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .sideNav nav {
@@ -152,6 +152,22 @@ h1 {
 
 .sideNav nav ul li a:hover {
 	color: #b3b3b3
+}
+
+/* Notes **********************************************************************/
+.notes {
+    float: right;
+    width: 25%;
+    margin-top: 20px;
+    margin-right: 2%;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+.notesText {
+    padding-left: 10px;
+    margin-left: 10px
 }
 
 /* Arrows *********************************************************************/
@@ -199,7 +215,7 @@ h1 {
 /*****************************************************************************/
 /*************************** for mobile screens ******************************/
 /*****************************************************************************/
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     h1 {
         display: none;
     }
@@ -299,5 +315,9 @@ h1 {
 
     .change .bar3 {
         transform: translate(0, -11px) rotate(45deg);
+    }
+
+    .sideNav {
+        display: none
     }
 }

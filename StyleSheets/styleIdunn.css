@@ -15,7 +15,6 @@ h2 {
     color: #ffffff;
     font-family: IMFellEnglish;
     font-size: 50px;
-    width: 700px;
     margin-right: auto;
     margin-top: 80px;
     text-align: left
@@ -37,24 +36,7 @@ p {
     width: 90%
 }
 
-/* Notes **********************************************************************/
-.notes {
-    float: right;
-    width: 25%;
-    margin-top: 20px;
-    margin-right: 5%;
-    border-left-color: white;
-    border-left-style: solid;
-    border-left-width: 2px;
-}
-
-.notesText {
-    padding-left: 10px;
-    margin-left: 10px
-}
-
-
-/* Arrows *********************************************************************/
-.next {
-    margin-bottom: 100px;
+.topChapterInfo .arrows .next li {
+    color: white;
+    list-style-type: none
 }

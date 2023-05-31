@@ -1,18 +1,62 @@
+.topChapterInfo {
+    display: none
+}
+
+/* Arrows *********************************************************************/
+.arrows {
+    padding-bottom: 50px;
+}
+
 /*****************************************************************************/
 /*************************** for mobile screens ******************************/
 /*****************************************************************************/
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     h2 {
         text-align: center;
         margin-right: auto;
         margin-left: auto;
         margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 45px
     }
 
     .pageBody {
-        width: 96%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .page {
+        width: 100%
+    }
+
+    .notesText {
+        display: none
+    }
+
+    .topChapterInfo {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .topChapterInfo .arrows {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+    }
+
+    .topChapterInfo .arrows li a {
+        font-size: 19px;
+    }
+
+    .topChapterInfo .arrows .next {
+        text-align: left;
+        margin-left: 50%
+    }
+
+    .topChapterInfo p {
+        text-align: center
     }
 
     .line2 {

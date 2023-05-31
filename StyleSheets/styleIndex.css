@@ -34,10 +34,14 @@ p {
     margin-left: 20px
 }
 
+.sideNav2 {
+    display: none
+}
+
 /*****************************************************************************/
 /*************************** for mobile screens ******************************/
 /*****************************************************************************/
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     h2 {
         text-align: center;
         margin-right: auto;
@@ -53,5 +57,21 @@ p {
 
     .line2 {
         display: none
+    }
+
+    .sideNav2 {
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .sideNav2 ul li a {
+        color: #ffffff;
+        font-family: CrimsonPro;
+    	text-decoration: none;
+        font-size: 20px;
+    }
+
+    .sideNav2 nav ul li a:hover {
+    	color: #b3b3b3
     }
 }
