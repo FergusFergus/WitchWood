@@ -121,7 +121,7 @@ users = {
     "Feldspar" : {
         "userName" : "wizardwhimsy874941",
         "role" : "Contributor",
-        "dTags" : ["Wizard", " Archive collective"],
+        "dTags" : ["Wizard"],
         "pTags" : ["Weird", " Helpful?"],
         "hasPage" : false
     },
