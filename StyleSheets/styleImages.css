@@ -45,3 +45,29 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*****************************************************************************/
+/*************************** for mobile screens ******************************/
+/*****************************************************************************/
+@media only screen and (max-width: 800px) {
+
+    h2 {
+        font-size: 200%;
+        text-align: center;
+        width: 100%;
+        margin-top: 0px
+    }
+
+    h3 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .pageBody {
+        width: 100%
+    }
+
+    img {
+        width: 100%
+    }
+}

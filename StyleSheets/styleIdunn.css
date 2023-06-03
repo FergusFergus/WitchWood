@@ -56,7 +56,7 @@ p {
 .arrows a {
     color: white;
     font-family: LibreBaskerville;
-    font-size: 17px
+    font-size: 19px
 }
 
 .arrows a:hover {
@@ -69,5 +69,13 @@ p {
 @media only screen and (max-width: 800px) {
     .page {
         width: 100%
+    }
+
+    h2 {
+        font-size: 200%
+    }
+
+    .arrows a {
+        font-size: 17px
     }
 }

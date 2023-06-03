@@ -2,7 +2,7 @@
 
 /* Page Content ***************************************************************/
 .pageBody {
-    float:left;
+    float: left;
     width: 60%;
     margin-left: 100px;
 }
@@ -48,4 +48,27 @@ p {
     font-size: 18px;
     display: block;
     color: #ffffff;
+}
+
+/*****************************************************************************/
+/*************************** for mobile screens ******************************/
+/*****************************************************************************/
+@media only screen and (max-width: 800px) {
+    .pageBody {
+        float: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%
+    }
+
+    h2 {
+        font-size: 200%;
+        text-align: center;
+        width: 100%;
+        margin-top: 0px
+    }
+
+    .contents nav ul li a {
+        font-size: 19px
+    }
 }

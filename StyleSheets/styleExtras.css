@@ -67,3 +67,26 @@ p {
 .extras nav ul li a:hover {
 	color: #b3b3b3
 }
+
+/*****************************************************************************/
+/*************************** for mobile screens ******************************/
+/*****************************************************************************/
+@media only screen and (max-width: 800px) {
+    .pageBody {
+        float: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%
+    }
+
+    h2 {
+        font-size: 200%;
+        text-align: center;
+        width: 100%;
+        margin-top: 0px
+    }
+
+    .list nav ul li a {
+        font-size: 19px
+    }
+}

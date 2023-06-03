@@ -43,6 +43,7 @@ p {
 .sideNav nav ul li a {
     font-family: TimesNewRoman;
     color: white;
+    font-size: 20px
 }
 
 .sideNav nav {
@@ -83,7 +84,7 @@ footnoteText {
 .arrows a {
     color: white;
     font-family: TimesNewRoman;
-    font-size: 17px
+    font-size: 23px
 }
 
 .arrows a:hover {
@@ -99,6 +100,6 @@ footnoteText {
     }
 
     .arrows a {
-        font-size: 18px
+        font-size: 19px
     }
 }
