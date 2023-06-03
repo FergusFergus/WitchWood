@@ -32,13 +32,35 @@ p {
     color: #ffffff;
 }
 
+/* The page images */
 .page {
     width: 90%
 }
 
-.topChapterInfo .arrows .next li {
+/* Side Navigation ************************************************************/
+.sideNav nav ul li a {
+    font-family: LibreBaskerville;
     color: white;
-    list-style-type: none
+}
+
+.sideNav nav {
+    border-left-color: white;
+}
+
+/* Arrows ********************************************************************/
+.arrows {
+    color: white;
+    font-family: LibreBaskerville;
+}
+
+.arrows a {
+    color: white;
+    font-family: LibreBaskerville;
+    font-size: 17px
+}
+
+.arrows a:hover {
+    color: #b3b3b3;
 }
 
 /*****************************************************************************/

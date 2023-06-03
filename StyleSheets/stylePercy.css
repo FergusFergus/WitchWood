@@ -2,7 +2,7 @@
 
 /* Page Content ***************************************************************/
 .pageBody {
-    float:left;
+    float: left;
     margin-left: 100px;
     width: 60%;
 }
@@ -30,19 +30,24 @@ h2 {
     color: #ff8dba
 }
 
-.text {
-    margin-top: 40px
-}
-
 p {
     font-family: Quicksand;
     font-size: 19px;
     display: block;
     color: #ff8dba;
     margin: 0;
-    margin-left: 20px;
     width: 86%;
     line-height: 1.25;
+}
+
+/* Side Navigation ************************************************************/
+.sideNav nav ul li a {
+    font-family: Quicksand;
+    color: #ff8dba;
+}
+
+.sideNav nav {
+    border-left-color: #ff8dba;
 }
 
 /* Notes **********************************************************************/
@@ -60,11 +65,31 @@ p {
     margin-left: 10px
 }
 
+/* Arrows ********************************************************************/
+.arrows {
+    color: #ff8dba;
+    font-family: Quicksand;
+}
+
+.arrows a {
+    color: #ff8dba;
+    font-family: Quicksand;
+    font-size: 22px
+}
+
+.arrows a:hover {
+    color: #b3b3b3;
+}
+
 /*****************************************************************************/
 /*************************** for mobile screens ******************************/
 /*****************************************************************************/
 @media only screen and (max-width: 800px) {
     h2 {
-        font-size: 40px
+        font-size: 200%
+    }
+
+    .arrows a {
+        font-size: 18px
     }
 }

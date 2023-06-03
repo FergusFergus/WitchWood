@@ -124,7 +124,6 @@ h1 {
 }
 
 .sideNav nav {
-    border-left-color: white;
     border-left-style: solid;
     border-left-width: 2px;
 }
@@ -144,10 +143,7 @@ h1 {
 }
 
 .sideNav nav ul li a {
-    color: #ffffff;
-    font-family: CrimsonPro;
 	text-decoration: none;
-    font-size: 20px;
 }
 
 .sideNav nav ul li a:hover {
@@ -160,14 +156,15 @@ h1 {
     width: 25%;
     margin-top: 20px;
     margin-right: 2%;
+}
+
+.AuthorNotes {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-left-color: white;
     border-left-style: solid;
     border-left-width: 2px;
-}
-
-.notesText {
-    padding-left: 10px;
-    margin-left: 10px
 }
 
 /* Arrows *********************************************************************/

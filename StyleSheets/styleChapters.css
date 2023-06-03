@@ -1,10 +1,38 @@
+.chapterText {
+    margin-top: 40px;
+}
+
 .topChapterInfo {
     display: none
 }
 
 /* Arrows *********************************************************************/
 .arrows {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1.65fr 1.65fr;
+    grid-template-rows: auto auto;
+    gap: 10px 10px;
+    grid-template-areas:
+    "Prev Next"
+    "Begin Latest";
     padding-bottom: 50px;
+}
+.Prev { grid-area: Prev; }
+.Begin { grid-area: Begin; }
+.Next { grid-area: Next; }
+.Latest { grid-area: Latest; }
+
+.arrows a {
+    text-decoration: none
+}
+
+.arrows .Next a {
+    float: right;
+}
+
+.arrows .Latest a {
+    float: right;
 }
 
 /*****************************************************************************/
@@ -17,7 +45,6 @@
         margin-left: auto;
         margin-top: 0px;
         margin-bottom: 10px;
-        font-size: 45px
     }
 
     .pageBody {
@@ -37,18 +64,9 @@
     }
 
     .topChapterInfo .arrows {
-        margin-top: 10px;
-        margin-bottom: 40px;
-        padding-bottom: 30px;
-    }
-
-    .topChapterInfo .arrows li a {
-        font-size: 19px;
-    }
-
-    .topChapterInfo .arrows .next {
-        text-align: left;
-        margin-left: 50%
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 0px;
     }
 
     .topChapterInfo p {

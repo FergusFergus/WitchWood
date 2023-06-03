@@ -1,8 +1,8 @@
-/* Idunn chapter specific style */
+/* Jonah chapter specific style */
 
 /* Page Content ***************************************************************/
 .pageBody {
-    float:left;
+    float: left;
     margin-left: 100px;
     width: 60%;
 }
@@ -25,17 +25,13 @@ h2 {
     background-color: transparent;
 }
 
-.chapterText {
-    margin-top: 40px;
-}
-
 p {
     font-family: TimesNewRoman;
     font-size: 20px;
     display: block;
     color: #ffffff;
     margin: 0;
-    margin-left: 20px;
+    margin-left: 0px;
     width: 86%;
     line-height: 1.3;
 }
@@ -44,22 +40,14 @@ p {
     text-align: center
 }
 
-footnoteText {
+/* Side Navigation ************************************************************/
+.sideNav nav ul li a {
     font-family: TimesNewRoman;
-    font-size: 18px;
-    display: block;
-    color: #ffffff;
+    color: white;
 }
 
-pre {
-    font-family: TimesNewRoman;
-    font-size: 19px;
-    color: #ffffff;
-    display: block;
-    white-space: pre-wrap;
-    line-height: 1.5;
-    width: 86%;
-    margin-left: 20px
+.sideNav nav {
+    border-left-color: white;
 }
 
 /* Notes **********************************************************************/
@@ -68,26 +56,60 @@ pre {
     width: 25%;
     margin-top: 10px;
     margin-right: 2%;
-    border-left-style: none;
-}
-
-.noteText {
-    margin-left: 10px;
-}
-
-.AuthorNotes {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-left-color: white;
-    border-left-style: solid;
-    border-left-width: 2px;
 }
 
 /* Footnotes ******************************************************************/
 .footnotes {
-    margin-top: 20px;
     border-left-color: white;
     border-left-style: solid;
     border-left-width: 2px;
     padding-left: 10px;
+}
+
+footnoteText {
+    font-family: TimesNewRoman;
+    font-size: 18px;
+    display: block;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Arrows ********************************************************************/
+.arrows {
+    color: white;
+    font-family: TimesNewRoman;
+}
+
+.arrows a {
+    color: white;
+    font-family: TimesNewRoman;
+    font-size: 17px
+}
+
+.arrows a:hover {
+    color: #b3b3b3;
+}
+
+/*****************************************************************************/
+/*************************** for mobile screens ******************************/
+/*****************************************************************************/
+@media only screen and (max-width: 800px) {
+    h2 {
+        font-size: 200%
+    }
+
+    .arrows a {
+        font-size: 18px
+    }
+
+    .AuthorNotes {
+        display: none;
+        border-style: none
+    }
+
+    .notes {
+        display: none;
+        border-style: none
+    }
 }
