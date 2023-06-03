@@ -1,5 +1,6 @@
 .chapterText {
     margin-top: 40px;
+    margin-bottom: 20px
 }
 
 .topChapterInfo {
@@ -17,6 +18,7 @@
     "Prev Next"
     "Begin Latest";
     padding-bottom: 50px;
+    padding-top: 20px;
 }
 .Prev { grid-area: Prev; }
 .Begin { grid-area: Begin; }
@@ -45,12 +47,21 @@
         margin-left: auto;
         margin-top: 0px;
         margin-bottom: 10px;
+        text-decoration: underline;
+    }
+
+    p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto
     }
 
     .pageBody {
-        width: 98%;
-        margin-left: 1%;
-        margin-right: 1%;
+        width: 100%;
+        float: center;
+        margin-left: 0%;
+        padding-left: 0px;
+        padding-right: 0px
     }
 
     .notesText {
@@ -70,10 +81,27 @@
     }
 
     .topChapterInfo p {
+        width: 100%;
         text-align: center
     }
 
     .line2 {
         display: none
+    }
+
+    .AuthorNotes {
+        display: none;
+        border-style: none
+    }
+
+    .notes {
+        display: none;
+        border-style: none
+    }
+
+    .arrows2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto
     }
 }
