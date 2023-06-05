@@ -34,6 +34,21 @@ p {
     margin-left: 20px
 }
 
+.sideNav nav {
+    border-left-color: white;
+}
+
+.sideNav ul li a {
+    color: #ffffff;
+    font-family: CrimsonPro;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sideNav nav ul li a:hover {
+    color: #b3b3b3
+}
+
 .sideNav2 {
     display: none
 }
